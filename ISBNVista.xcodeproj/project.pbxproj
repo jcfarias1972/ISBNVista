@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCBC78211C97C01600BAA15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC78201C97C01600BAA15F /* AppDelegate.swift */; };
+		CCBC78261C97C01600BAA15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBC78241C97C01600BAA15F /* Main.storyboard */; };
+		CCBC78281C97C01600BAA15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBC78271C97C01600BAA15F /* Assets.xcassets */; };
+		CCBC782B1C97C01600BAA15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBC78291C97C01600BAA15F /* LaunchScreen.storyboard */; };
+		CCBC78361C97C01600BAA15F /* ClimaYahooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC78351C97C01600BAA15F /* ClimaYahooTests.swift */; };
+		CCBC78411C97C01600BAA15F /* ClimaYahooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC78401C97C01600BAA15F /* ClimaYahooUITests.swift */; };
+		CCBC784F1C97C3F800BAA15F /* TVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC784E1C97C3F800BAA15F /* TVCTableViewController.swift */; };
+		CCD846281CA1D56900071B33 /* ControlCiudad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD846271CA1D56900071B33 /* ControlCiudad.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBC78321C97C01600BAA15F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBC78151C97C01600BAA15F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBC781C1C97C01600BAA15F;
+			remoteInfo = ClimaYahoo;
+		};
+		CCBC783D1C97C01600BAA15F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBC78151C97C01600BAA15F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBC781C1C97C01600BAA15F;
+			remoteInfo = ClimaYahoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCBC781D1C97C01600BAA15F /* ISBNVista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISBNVista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC78201C97C01600BAA15F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCBC78251C97C01600BAA15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCBC78271C97C01600BAA15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCBC782A1C97C01600BAA15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCBC782C1C97C01600BAA15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBC78311C97C01600BAA15F /* ISBNVista.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISBNVista.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC78351C97C01600BAA15F /* ClimaYahooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaYahooTests.swift; sourceTree = "<group>"; };
+		CCBC78371C97C01600BAA15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBC783C1C97C01600BAA15F /* ISBNVista.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISBNVista.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC78401C97C01600BAA15F /* ClimaYahooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaYahooUITests.swift; sourceTree = "<group>"; };
+		CCBC78421C97C01600BAA15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBC784E1C97C3F800BAA15F /* TVCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCTableViewController.swift; sourceTree = "<group>"; };
+		CCD846271CA1D56900071B33 /* ControlCiudad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCiudad.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBC781A1C97C01600BAA15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC782E1C97C01600BAA15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC78391C97C01600BAA15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCBC78141C97C01600BAA15F = {
+			isa = PBXGroup;
+			children = (
+				CCBC781F1C97C01600BAA15F /* ISBNVista */,
+				CCBC78341C97C01600BAA15F /* ISBNVistaTests */,
+				CCBC783F1C97C01600BAA15F /* ISBNVistaUITests */,
+				CCBC781E1C97C01600BAA15F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBC781E1C97C01600BAA15F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC781D1C97C01600BAA15F /* ISBNVista.app */,
+				CCBC78311C97C01600BAA15F /* ISBNVista.xctest */,
+				CCBC783C1C97C01600BAA15F /* ISBNVista.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBC781F1C97C01600BAA15F /* ISBNVista */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC78201C97C01600BAA15F /* AppDelegate.swift */,
+				CCBC784E1C97C3F800BAA15F /* TVCTableViewController.swift */,
+				CCBC78241C97C01600BAA15F /* Main.storyboard */,
+				CCBC78271C97C01600BAA15F /* Assets.xcassets */,
+				CCBC78291C97C01600BAA15F /* LaunchScreen.storyboard */,
+				CCBC782C1C97C01600BAA15F /* Info.plist */,
+				CCD846271CA1D56900071B33 /* ControlCiudad.swift */,
+			);
+			name = ISBNVista;
+			path = ClimaYahoo;
+			sourceTree = "<group>";
+		};
+		CCBC78341C97C01600BAA15F /* ISBNVistaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC78351C97C01600BAA15F /* ClimaYahooTests.swift */,
+				CCBC78371C97C01600BAA15F /* Info.plist */,
+			);
+			name = ISBNVistaTests;
+			path = ClimaYahooTests;
+			sourceTree = "<group>";
+		};
+		CCBC783F1C97C01600BAA15F /* ISBNVistaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC78401C97C01600BAA15F /* ClimaYahooUITests.swift */,
+				CCBC78421C97C01600BAA15F /* Info.plist */,
+			);
+			name = ISBNVistaUITests;
+			path = ClimaYahooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBC781C1C97C01600BAA15F /* ISBNVista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBC78451C97C01600BAA15F /* Build configuration list for PBXNativeTarget "ISBNVista" */;
+			buildPhases = (
+				CCBC78191C97C01600BAA15F /* Sources */,
+				CCBC781A1C97C01600BAA15F /* Frameworks */,
+				CCBC781B1C97C01600BAA15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISBNVista;
+			productName = ClimaYahoo;
+			productReference = CCBC781D1C97C01600BAA15F /* ISBNVista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCBC78301C97C01600BAA15F /* ISBNVistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBC78481C97C01600BAA15F /* Build configuration list for PBXNativeTarget "ISBNVistaTests" */;
+			buildPhases = (
+				CCBC782D1C97C01600BAA15F /* Sources */,
+				CCBC782E1C97C01600BAA15F /* Frameworks */,
+				CCBC782F1C97C01600BAA15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBC78331C97C01600BAA15F /* PBXTargetDependency */,
+			);
+			name = ISBNVistaTests;
+			productName = ClimaYahooTests;
+			productReference = CCBC78311C97C01600BAA15F /* ISBNVista.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCBC783B1C97C01600BAA15F /* ISBNVistaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBC784B1C97C01600BAA15F /* Build configuration list for PBXNativeTarget "ISBNVistaUITests" */;
+			buildPhases = (
+				CCBC78381C97C01600BAA15F /* Sources */,
+				CCBC78391C97C01600BAA15F /* Frameworks */,
+				CCBC783A1C97C01600BAA15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBC783E1C97C01600BAA15F /* PBXTargetDependency */,
+			);
+			name = ISBNVistaUITests;
+			productName = ClimaYahooUITests;
+			productReference = CCBC783C1C97C01600BAA15F /* ISBNVista.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBC78151C97C01600BAA15F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Comisión Federal de Electricidad DCS";
+				TargetAttributes = {
+					CCBC781C1C97C01600BAA15F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3BA96S3QTG;
+					};
+					CCBC78301C97C01600BAA15F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3BA96S3QTG;
+						TestTargetID = CCBC781C1C97C01600BAA15F;
+					};
+					CCBC783B1C97C01600BAA15F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3BA96S3QTG;
+						TestTargetID = CCBC781C1C97C01600BAA15F;
+					};
+				};
+			};
+			buildConfigurationList = CCBC78181C97C01600BAA15F /* Build configuration list for PBXProject "ISBNVista" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBC78141C97C01600BAA15F;
+			productRefGroup = CCBC781E1C97C01600BAA15F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBC781C1C97C01600BAA15F /* ISBNVista */,
+				CCBC78301C97C01600BAA15F /* ISBNVistaTests */,
+				CCBC783B1C97C01600BAA15F /* ISBNVistaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBC781B1C97C01600BAA15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBC782B1C97C01600BAA15F /* LaunchScreen.storyboard in Resources */,
+				CCBC78281C97C01600BAA15F /* Assets.xcassets in Resources */,
+				CCBC78261C97C01600BAA15F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC782F1C97C01600BAA15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC783A1C97C01600BAA15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBC78191C97C01600BAA15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBC78211C97C01600BAA15F /* AppDelegate.swift in Sources */,
+				CCBC784F1C97C3F800BAA15F /* TVCTableViewController.swift in Sources */,
+				CCD846281CA1D56900071B33 /* ControlCiudad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC782D1C97C01600BAA15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBC78361C97C01600BAA15F /* ClimaYahooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC78381C97C01600BAA15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBC78411C97C01600BAA15F /* ClimaYahooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCBC78331C97C01600BAA15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBC781C1C97C01600BAA15F /* ISBNVista */;
+			targetProxy = CCBC78321C97C01600BAA15F /* PBXContainerItemProxy */;
+		};
+		CCBC783E1C97C01600BAA15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBC781C1C97C01600BAA15F /* ISBNVista */;
+			targetProxy = CCBC783D1C97C01600BAA15F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCBC78241C97C01600BAA15F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBC78251C97C01600BAA15F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCBC78291C97C01600BAA15F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBC782A1C97C01600BAA15F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBC78431C97C01600BAA15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCBC78441C97C01600BAA15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCBC78461C97C01600BAA15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimaYahoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gob.cfe.ClimaYahoo;
+				PRODUCT_NAME = ISBNVista;
+			};
+			name = Debug;
+		};
+		CCBC78471C97C01600BAA15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimaYahoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gob.cfe.ClimaYahoo;
+				PRODUCT_NAME = ISBNVista;
+			};
+			name = Release;
+		};
+		CCBC78491C97C01600BAA15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClimaYahooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gob.cfe.ClimaYahooTests;
+				PRODUCT_NAME = ISBNVista;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISBNVista.app/ISBNVista";
+			};
+			name = Debug;
+		};
+		CCBC784A1C97C01600BAA15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClimaYahooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gob.cfe.ClimaYahooTests;
+				PRODUCT_NAME = ISBNVista;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISBNVista.app/ISBNVista";
+			};
+			name = Release;
+		};
+		CCBC784C1C97C01600BAA15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClimaYahooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gob.cfe.ClimaYahooUITests;
+				PRODUCT_NAME = ISBNVista;
+				TEST_TARGET_NAME = ClimaYahoo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCBC784D1C97C01600BAA15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClimaYahooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gob.cfe.ClimaYahooUITests;
+				PRODUCT_NAME = ISBNVista;
+				TEST_TARGET_NAME = ClimaYahoo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBC78181C97C01600BAA15F /* Build configuration list for PBXProject "ISBNVista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBC78431C97C01600BAA15F /* Debug */,
+				CCBC78441C97C01600BAA15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBC78451C97C01600BAA15F /* Build configuration list for PBXNativeTarget "ISBNVista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBC78461C97C01600BAA15F /* Debug */,
+				CCBC78471C97C01600BAA15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBC78481C97C01600BAA15F /* Build configuration list for PBXNativeTarget "ISBNVistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBC78491C97C01600BAA15F /* Debug */,
+				CCBC784A1C97C01600BAA15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBC784B1C97C01600BAA15F /* Build configuration list for PBXNativeTarget "ISBNVistaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBC784C1C97C01600BAA15F /* Debug */,
+				CCBC784D1C97C01600BAA15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBC78151C97C01600BAA15F /* Project object */;
+}
